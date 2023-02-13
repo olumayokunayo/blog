@@ -27,7 +27,7 @@ logInBtn.addEventListener("click", function () {
   console.log(found);
   if (found) {
     alert("Loggin In");
-    window.location.href = "blog.html";
+    window.location.href = "index.html";
   } else {
     alert("User not found");
   }

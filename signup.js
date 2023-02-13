@@ -31,6 +31,7 @@ function deleteWord() {
   }, 200);
 }
 writeWord();
+
 let username = document.getElementById("username");
 let email = document.getElementById("email");
 let password = document.getElementById("password");
