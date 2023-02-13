@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.592);
+}
+.hero-header {
+  margin-left: 15rem;
+  font-size: 1.2rem;
+}
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroSection img {
+  width: 45%;
+  box-shadow: 0px 2px 2px 2px #2222223a;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.signUp input {
+  display: block;
+  height: 2rem;
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+  border: none;
+  padding: 1rem;
+  align-items: center;
+}
+.bt1 {
+  display: flex;
+}
+.sign {
+  border: none;
+  background: #2222228b;
+  color: white;
+  transition: all 0.5s;
+}
+.signUp {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.285),
+    rgba(255, 166, 0, 0.229)
+  );
+  padding: 2rem;
+  box-shadow: 0px 2px 2px 2px #2222223a;
+  border-radius: 10px;
+}
+.sign:hover {
+  background-color: #222;
+}
+.signUpBtn {
+  border: none;
+  transition: all 0.5s;
+}
+.signUpBtn:hover {
+  background: #2222228b;
+  color: white;
+  border: 0.5px solid white;
+}
+.account a {
+  text-decoration: none;
+  color: blue;
+}
+.main h1 {
+  margin-left: 15rem;
+}
